@@ -7,7 +7,7 @@ const Review = require('../../models/reviewModel');
 
 dotenv.config({ path: './config.env' });
 
-const DB = `mongodb+srv://razak-gawusu:NbY36PL4AcYiJKz@razak-gawusucluster.ugs4ga1.mongodb.net/natours?retryWrites=true&w=majority`
+const DB = ``
 mongoose
     .connect(DB, {
         useNewUrlParser: true,
